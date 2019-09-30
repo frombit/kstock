@@ -28,22 +28,22 @@ baseurl: '/kstock' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: frombit
-show_downloads: true
-# Build settings
-# theme: jekyll-theme-slate
-theme: agency-jekyll-theme
-plugins:
-  # - jekyll-HexToRGB
-  - jekyll-feed
-  - jekyll-multiple-languages-plugin
-github: [metadata]
-lang: ['ko', 'en']
-languages: ['ko', 'en']
-language_default: 'ko'
-exclude_from_localizations: ['javascript', 'images', 'css']
-# Build settings
-markdown: kramdown
-permalink: pretty
+# show_downloads: true
+# # Build settings
+# # theme: jekyll-theme-slate
+# theme: agency-jekyll-theme
+# plugins:
+#   # - jekyll-HexToRGB
+#   - jekyll-feed
+#   - jekyll-multiple-languages-plugin
+# github: [metadata]
+# lang: ['ko', 'en']
+# languages: ['ko', 'en']
+# language_default: 'ko'
+# exclude_from_localizations: ['javascript', 'images', 'css']
+# # Build settings
+# markdown: kramdown
+# permalink: pretty
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
