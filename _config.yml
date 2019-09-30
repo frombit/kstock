@@ -27,7 +27,7 @@ url: 'http://frombit.github.io' # the base hostname & protocol for your site, e.
 github_username: frombit
 show_downloads: true
 # Build settings
-# theme: minima
+theme: minima
 # theme: jekyll-theme-cayman
 plugins:
   # - jekyll-HexToRGB
