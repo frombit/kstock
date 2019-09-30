@@ -30,10 +30,8 @@ url: '' # the base hostname & protocol for your site, e.g. http://example.com
 github_username: frombit
 show_downloads: true
 # Build settings
-# theme: minima
-# theme: jekyll-theme-cayman
-theme: jekyll-theme-slate
-# theme: jekyll-theme-cayman
+# theme: jekyll-theme-slate
+theme: agency-jekyll-theme
 plugins:
   # - jekyll-HexToRGB
   - jekyll-feed
