@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .title {
+        font-size: 20px;
+      }
+      a {
+        text-decoration-line: none;
+      }
+      .prev {
+        height: 300px;
+        overflow: scroll;
+        font-size: 15px;
+        border: 1px dashed #ccc;
+        padding: 5px;
+      }
+      .padding {
+        padding: 5px;
+      }
+      .logo {
+        width: 40px;
+        margin-bottom: -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="title">
+      <img class="logo" src="https://frombit.github.io/kstock/img/64x64.png" alt="" />
+      <a href="https://frombit.github.io/kstock">kStock 홈페이지 바로가기</a>
+    </span>
+    <div class="padding">{{ content }}</div>
+    <a href="https://frombit.github.io/kstock">기존 릴리즈 -</a>
+    <div class="prev">
+      {% for post in site.posts %} {% if page.title != post.title %}
+      <div>
+        <div class="d-ib w500 text-left">{{ post.content }}</div>
+      </div>
+      {% endif %} {% endfor %}
+    </div>
+  </body>
+</html>

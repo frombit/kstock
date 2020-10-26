@@ -1,0 +1,64 @@
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">개발문의</h2>
+        <h3 class="section-subheading text-muted">당신의 의견을 알려주세요. 좋은의견은 추후 업데이트에 포함시키겠습니다.</h3>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var submitted = false;
+    </script>
+    <div class="row">
+      <div class="col-lg-12">
+        <form
+          name="gform"
+          id="gform"
+          novalidate
+          enctype="text/plain"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSfSCrh4P6WmLLptiTjSq5FCpBIj0y2v-TW7swSg1zsOZ1G5nw/formResponse"
+          target="hidden_iframe"
+          onsubmit="submitted=true;"
+        >
+          <div class="row">
+            <div class="col-md-12">
+              <div class="control-group form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="이름 *"
+                  name="entry.1420753436"
+                  id="entry.1420753436"
+                  required
+                  data-validation-required-message="이름을 입력해 주세요"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="control-group form-group">
+                <textarea
+                  class="form-control"
+                  placeholder="내용 *"
+                  name="entry.1107129396"
+                  id="entry.1107129396"
+                  required
+                  data-validation-required-message="내용을 입력해 주세요"
+                ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+
+              <button type="submit" class="btn btn-xl btn-default">Send Message</button>
+            </div>
+          </div>
+        </form>
+        <!-- <script src="assets/js/jquery.min.js"></script>-->
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        <div id="success"></div>
+      </div>
+    </div>
+  </div>
+</section>
