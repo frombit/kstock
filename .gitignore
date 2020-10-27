@@ -6,3 +6,4 @@ vendor
 Rakefile
 _config.yml
 __config.yml
+.history
