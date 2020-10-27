@@ -7,3 +7,5 @@ Rakefile
 _config.yml
 __config.yml
 .history
+.bundle
+Gemfile.lock
