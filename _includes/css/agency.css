@@ -272,7 +272,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
+    background-position: center right;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
