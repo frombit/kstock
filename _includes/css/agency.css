@@ -943,3 +943,7 @@ body {
 .text-muted {
     font-size: 1.5em;
 }
+ul {
+    padding-left: 10px;
+    font-size:13px;
+}
