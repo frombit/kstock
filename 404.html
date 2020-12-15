@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>kStock - 실시간 주식시세 확인</title>
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="실시간 주식시세를 확인하세요. 맥과 윈도우에서 동시에 사용가능합니다. 위젯(가젯)지원과 실시간 알림까지 지원합니다." />
+  <meta property="og:title" content="실시간 주식시세를 확인하세요. 맥과 윈도우에서 동시에 사용가능합니다. 위젯(가젯)지원과 실시간 알림까지 지원합니다." />
+  <meta property="og:image" content="https://frombit.github.io/kstock/img/widget.png" />
+  <link rel="canonical" href="https://frombit.github.io/kstock/404.html" />
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link rel="stylesheet" href="/kstock/style.css" />
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="/kstock/css/font-awesome/css/font-awesome.min.css" />
+  <meta name="google-site-verification" content="UQXcYbWhmI3RmkxtpRkCtEdJHLvcgCsrEQyBaO3XkQQ" />
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" /> -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180810058-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180810058-1');
+</script>
+
+</head>
+
+    <body id="page-top" class="index">
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="main_logo" src="/kstock/img/64x64.png" alt="" />
+      <!-- <a class="navbar-brand page-scroll" href="#page-top">kStock - 실시간 주식시세 확인</a> -->
+      <a class="navbar-brand page-scroll" href="#page-top">kStock 케이 스톡</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#feature">기능</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">개발문의</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#download">다운로드</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#whatsnew">패치노트</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="intro-text">
+      <!-- <div class="intro-lead-in">Welcome To Our Studio!</div> -->
+      <div class="intro-heading">이제 내 바탕화면에서 <br>실시간 주식시세를 확인하세요.</div>
+      <a href="#feature" class="page-scroll btn btn-xl">더 알아보기</a>
+      <a href="#download" class="page-scroll btn btn-xl">무료 다운로드</a>
+      <div style="margin-top:20px;">
+        <a href="#download" class="btn btn-xl" style="background-color: green;">맥/윈도우 새 업데이트</a>
+      </div>
+      <div style="margin-top:20px;">
+        <a href="#download" class="btn btn-xl" style="background-color: skyblue;">Beta : 베타버젼에 참여해 주세요</a>
+      </div>
+    </div>
+  </div>
+</header>
+<!--
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+ -->
+
+    <!-- Services Section -->
+<section id="feature">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">기능</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+    </div>
+    <div class="row text-center flex-container">
+      <div class="flex-item">
+        <img src="img/kstock_features1.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">실시간 주식시세 확인</span>
+        <p class="text-muted">실시간으로 변동되는 주식시세를 <br /> 메인화면, 트레이, 위젯으로 바로 확인할 수 있습니다.</p>
+      </div>
+      <div class="flex-item">
+        <img src="img/kstock_features2.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">맥/윈도우 사용가능</span>
+        <p class="text-muted">윈도우와 맥에서 동시에 사용가능합니다.</p>
+      </div>
+      <div class="flex-item">
+        <img src="img/kstock_features3.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-bell-o fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">실시간 시세 알림</span>
+        <p class="text-muted">알림기능을 적극적으로 활용해 보세요. 실시간 가격알림을 지원합니다.</p>
+      </div>
+      <div class="flex-item">
+        <img src="img/kstock_features4.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">커스텀 시세알림</span>
+        <p class="text-muted">직장에서 눈치가 보이시나요? 알림을 마음껏 조정해보세요</p>
+      </div>
+      <div class="flex-item">
+        <img src="img/kstock_features4_5.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">다양한 검색</span>
+        <p class="text-muted">일반검색 외에도, 현재 상한가 하한가 그리고 급등중인 종목을 검색할 수 있습니다</p>
+      </div>
+      <div class="flex-item">
+        <img src="img/kstock_features5.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-low-vision fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">다크 테마지원</span>
+        <p class="text-muted">눈이 편한 다크 테마를 지원합니다.</p>
+      </div>
+      <div class="flex-item">
+        <img src="img/kstock_features6.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">다양한 위젯 커스터마이징</span>
+        <p class="text-muted">꼭 모든정보가 다 보여야할 필요는 없죠. 때로는 주식위젯처럼 안 보이게 해야 할 필요도 있습니다.</p>
+      </div>
+      <div class="flex-item">
+        <img src="img/kstock_features7.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-keyboard-o fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">단축키로 손쉽게</span>
+        <p class="text-muted">단축키로 손쉽게 보였다 안보였다 제어하세요.</p>
+      </div>
+      <div class="flex-item">
+        <img src="img/kstock_features8.png" class="feature_img" alt="" />
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
+        </span>
+        <span class="feature_title">클라우드 싱크</span>
+        <p class="text-muted">클라우드에 로그인하면 언제 어디서나 데이터를 동기화 시킬 수 있습니다. 구글로그인도 지원합니다</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">개발문의</h2>
+        <h3 class="section-subheading text-muted">당신의 의견을 알려주세요. 좋은의견은 추후 업데이트에 포함시키겠습니다.</h3>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var submitted = false;
+    </script>
+    <div class="row">
+      <div class="col-lg-12">
+        <form
+          name="gform"
+          id="gform"
+          novalidate
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeMzq6IdEafq9VBR85J9TqxlKea74i--1WfuVhuVFSaK_hInQ/formResponse"
+          enctype="text/plain"
+          target="hidden_iframe"
+          onsubmit="submitted=true;"
+          >
+          <!-- action="https://docs.google.com/forms/d/e/1FAIpQLSfSCrh4P6WmLLptiTjSq5FCpBIj0y2v-TW7swSg1zsOZ1G5nw/formResponse" -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="control-group form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="이름 *"
+                  name="entry.1118569613"
+                  id="entry.1118569613"
+                  required
+                  data-validation-required-message="이름을 입력해 주세요"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <!-- id="entry.755287312" -->
+              <div class="col-md-12">
+              <div class="control-group form-group">
+                <textarea
+                  class="form-control"
+                  placeholder="내용 *"
+                  name="entry.506897318"
+                  id="entry.506897318"
+                  required
+                  data-validation-required-message="내용을 입력해 주세요"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <!-- id="entry.1927440843" -->
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+
+              <button type="submit" class="btn btn-xl btn-default">Send Message</button>
+            </div>
+          </div>
+        </form>
+        <!-- <script src="assets/js/jquery.min.js"></script>-->
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        <div id="success"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- About Section -->
+<section id="download">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">다운로드</h2>
+        <!-- <h3 class="section-subheading text-muted">Current version (v1.0) : 2019-09-30</h3> -->
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+    </div>
+    
+    <div class="row text-center">
+      <div class="col-sm-6">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-windows fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">윈도우</h4>
+        <!-- <a href="https://github.com/frombit/kstock/releases/download/v1.3.1/kStock-1.3.1-win.exe"> -->
+        <a href="https://github.com/frombit/kstock/releases/download/v1.3.1/kStock-1.3.1-win.exe">
+          <button class="btn btn-primary">정식버젼 1.3.1</button>
+        </a>
+        <a href="https://github.com/frombit/kstock-beta/releases/download/v1.3.1-b/kStock-1.3.1-b-win.exe">
+          <button class="btn btn-default">베타버젼 1.3.1</button>
+        </a>
+      </div>
+      <div class="col-sm-6">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-apple fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">맥</h4>
+        <!-- <a href="https://github.com/frombit/kstock/releases/download/v1.3.1/kStock-1.3.1.dmg"> -->
+        <a href="https://github.com/frombit/kstock/releases/download/v1.3.1/kStock-1.3.1.dmg">
+          <button class="btn btn-primary">정식버젼 1.3.1</button>
+        </a>
+        <a href="https://github.com/frombit/kstock-beta/releases/download/v1.3.1-b/kStock-1.3.1-b.dmg">
+          <button class="btn btn-default">베타버젼 1.3.1</button>
+        </a>
+      </div>
+      <!-- <div class="col-sm-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-linux fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">리눅스(추후지원)</h4>
+        <button class="btn btn-default disabled">다운로드</button>
+      </div> -->
+    </div>
+    
+  </div>
+</section>
+
+    <!-- Portfolio Grid Section -->
+<section id="whatsnew" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">패치노트</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+    </div>
+    <div class="row text-center" style="height:400px;overflow:scroll">
+      <div class="col-md-12">
+        
+        <div>
+          <!-- <div class="d-ib w300 text-right">1.3.1</div> -->
+          <div class="d-ib w500 text-left" style="width:100%;max-width:400px;"><h3 id="정식버젼-131">정식버젼 1.3.1</h3>
+
+<hr />
+<h4 id="새롭게-추가된-점">새롭게 추가된 점</h4>
+
+<p><img src="https://frombit.github.io/kstock/img/forDes/sanghahanga.png" alt="상하한급등주" width="400" /></p>
+<ul>
+  <li>
+    <h5 id="상한가-하한가-급등주-검색기능이-추가되었습니다">상한가, 하한가, 급등주 검색기능이 추가되었습니다</h5>
+  </li>
+</ul>
+
+<hr />
+
+<hr />
+</div>
+        </div>
+        
+        <div>
+          <!-- <div class="d-ib w300 text-right">1.2.6</div> -->
+          <div class="d-ib w500 text-left" style="width:100%;max-width:400px;"><h3 id="정식베타-126">정식/베타 1.2.6</h3>
+
+<hr />
+<h4 id="긴급하게-수정된-점">긴급하게 수정된 점</h4>
+<h5 id="실시간-서버의-문제가-긴급하게-수정되었습니다-이-버젼으로-업데이트-해주세요">실시간 서버의 문제가 긴급하게 수정되었습니다. 이 버젼으로 업데이트 해주세요.</h5>
+<h5 id="사용에-불편을-드려-죄송합니다">사용에 불편을 드려 죄송합니다</h5>
+
+<hr />
+
+<!-- [1]: https://frombit.github.io/kstock/img/forDes/customNotiMsg.png -->
+
+<hr />
+</div>
+        </div>
+        
+        <div>
+          <!-- <div class="d-ib w300 text-right">1.2.5</div> -->
+          <div class="d-ib w500 text-left" style="width:100%;max-width:400px;"><h3 id="베타버젼-125">베타버젼 1.2.5</h3>
+
+<hr />
+<h4 id="긴급하게-수정된-점">긴급하게 수정된 점</h4>
+<ul>
+  <li>
+    <h5 id="krx-한국거래소-의-데이터가-요즘-많이-불안정합니다">KRX (한국거래소) 의 데이터가 요즘 많이 불안정합니다.</h5>
+  </li>
+  <li>
+    <h5 id="때문에-위젯이-시간정보를-받아오지-못해-offline-이-되거나-트레이창의-시간이-자꾸-안맞는-문제가-생겼습니다">때문에 위젯이 시간정보를 받아오지 못해 Offline 이 되거나 트레이창의 시간이 자꾸 안맞는 문제가 생겼습니다.</h5>
+  </li>
+  <li>
+    <h5 id="다른-데이터서버로-테스트-중입니다-하루-적용하고-정식버젼에-적용하겠습니다">다른 데이터서버로 테스트 중입니다. 하루 적용하고 정식버젼에 적용하겠습니다.</h5>
+  </li>
+</ul>
+
+<hr />
+
+<!-- [1]: https://frombit.github.io/kstock/img/forDes/customNotiMsg.png -->
+
+<hr />
+</div>
+        </div>
+        
+        <div>
+          <!-- <div class="d-ib w300 text-right">1.2.3</div> -->
+          <div class="d-ib w500 text-left" style="width:100%;max-width:400px;"><h3 id="정식버젼-123">정식버젼 1.2.3</h3>
+
+<hr />
+<h4 id="새롭게-추가된점">새롭게 추가된점</h4>
+<ul>
+  <li>
+    <h5 id="개발문의요청-기능을-앱-안에-넣었습니다">개발문의/요청 기능을 앱 안에 넣었습니다.</h5>
+  </li>
+</ul>
+
+<h4 id="수정된-점">수정된 점</h4>
+<ul>
+  <li>
+    <h5 id="메인창과-트레이에서-일봉이-표시될때-순서가-변경될경우-다른일봉과-겹쳐보이는-문제가-수정됐습니다">메인창과 트레이에서 일봉이 표시될때 순서가 변경될경우 다른일봉과 겹쳐보이는 문제가 수정됐습니다</h5>
+  </li>
+</ul>
+
+<hr />
+
+<!-- [1]: https://frombit.github.io/kstock/img/forDes/customNotiMsg.png -->
+
+<hr />
+</div>
+        </div>
+        
+        <div>
+          <!-- <div class="d-ib w300 text-right">1.2.2</div> -->
+          <div class="d-ib w500 text-left" style="width:100%;max-width:400px;"><h3 id="정식버젼-122">정식버젼 1.2.2</h3>
+
+<hr />
+<h4 id="추가된-점">추가된 점</h4>
+<ul>
+  <li>
+    <h5 id="맥-정식-버젼이-등록되었습니다">맥 정식 버젼이 등록되었습니다.</h5>
+  </li>
+</ul>
+
+<p><br /></p>
+<h4 id="수정된-점-윈도우">수정된 점 (윈도우)</h4>
+<ul>
+  <li>
+    <h5 id="자동종료-기능-이후-실행이-안되는-문제를-수정했습니다-혹시-업데이트-이후-실행이-안되시는-분들은-번거로우시겠지만">자동종료 기능 이후 실행이 안되는 문제를 수정했습니다. 혹시 업데이트 이후 실행이 안되시는 분들은 번거로우시겠지만</h5>
+  </li>
+  <li>
+    <h5 id="수동으로-이번버젼을-설치해-주세요-번거롭게-해드려-죄송합니다">수동으로 이번버젼을 설치해 주세요. 번거롭게 해드려 죄송합니다.</h5>
+  </li>
+</ul>
+
+<hr />
+
+<hr />
+</div>
+        </div>
+        
+        <div>
+          <!-- <div class="d-ib w300 text-right">1.2.1</div> -->
+          <div class="d-ib w500 text-left" style="width:100%;max-width:400px;"><h3 id="베타버젼-121">베타버젼 1.2.1</h3>
+
+<hr />
+
+<h4 id="새롭게-추가된점">새롭게 추가된점</h4>
+
+<p><img src="https://frombit.github.io/kstock/img/forDes/customNotiMsg.png" alt="커스텀알림메세지" width="400" /></p>
+<ul>
+  <li>
+    <h5 id="이제-알림메세지를-임의로-설정할-수-있습니다">이제 알림메세지를 임의로 설정할 수 있습니다</h5>
+    <ul>
+      <li>[종목] [줄바꿈] [가격]등 태그를 활용하여 메세지를 만들어보세요.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h4 id="수정된-점">수정된 점</h4>
+<ul>
+  <li>
+    <h5 id="로그인시-정보가-틀렸을경우-재로그인이-안되는-문제를-수정했습니다">로그인시 정보가 틀렸을경우 재로그인이 안되는 문제를 수정했습니다</h5>
+  </li>
+</ul>
+
+<hr />
+
+<hr />
+</div>
+        </div>
+        
+        <div>
+          <!-- <div class="d-ib w300 text-right">1.2.0</div> -->
+          <div class="d-ib w500 text-left" style="width:100%;max-width:400px;"><h3 id="정식버젼-120">정식버젼 1.2.0</h3>
+
+<hr />
+
+<h4 id="새롭게-추가된점">새롭게 추가된점</h4>
+
+<p><img src="https://frombit.github.io/kstock/img/forDes/widgetOrderAdded.png" alt="위젯정렬뉴" /></p>
+<ul>
+  <li>
+    <h5 id="위젯-정렬기능이-추가되었습니다-우클릭-메뉴">위젯 정렬기능이 추가되었습니다. (우클릭 메뉴)</h5>
+    <ul>
+      <li>이제 우측하단으로 정렬 혹은 현재위젯의 위또는 아래로 쉽게 정렬이 가능합니다.</li>
+      <li>위젯에서 알림, 설정등 바로가기 메뉴가 추가되었습니다.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="https://frombit.github.io/kstock/img/forDes/newNotifySetting.png" alt="커스텀알림" width="400" /></p>
+<ul>
+  <li>
+    <h5 id="커스텀-알림">커스텀 알림</h5>
+    <ul>
+      <li>윈도우 기본 알림이 아닌 커스텀 알림을 활용해 보세요. 다양하게 커스텀이 가능합니다.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="https://frombit.github.io/kstock/img/forDes/marketAlarmAdded.png" alt="장알림" width="400" /></p>
+<ul>
+  <li>
+    <h5 id="장시작-종료-알림">장시작, 종료 알림</h5>
+    <ul>
+      <li>동시호가시작, 장시작,끝을 알리는 알림이 추가되었습니다</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="https://frombit.github.io/kstock/img/forDes/autoQuitAndStartAdded.png" alt="장알림" width="400" /></p>
+<ul>
+  <li>
+    <h5 id="프로그램-자동-시작-자동-종료">프로그램 자동 시작, 자동 종료</h5>
+    <ul>
+      <li>특정시간에 앱을 자동으로 끌수있고, 윈도우와 동시에 시작시키는 옵션이 추가되었습니다</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="그외">그외</h5>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- 구글로그인 수정
+- 설정을 탭으로 분리
+- 배경만 투명도를 설정 할 수 있게 추가
+- 내 종목에 조금더 다양한 항목이 나오게
+- 위젯 크기와 모양에 따른 즐겨찾기 설정 추가 (3개까지)
+- 코스닥종목의 알림설정 금액 수정
+- 안정화 작업 및 많은 버그를 수정했습니다
+</code></pre></div></div>
+
+<hr />
+
+<hr />
+</div>
+        </div>
+        
+        <div>
+          <!-- <div class="d-ib w300 text-right">1.1.0</div> -->
+          <div class="d-ib w500 text-left" style="width:100%;max-width:400px;"><h4>정식버젼 : 1.1.0</h4>
+
+<p>정식버젼 1.1.0</p>
+
+<h6 id="새롭게-추가된점">새롭게 추가된점</h6>
+
+<ul>
+  <li>새롭게 편성된 디자인</li>
+  <li>위젯의 다양한 설정</li>
+  <li>일봉추가</li>
+  <li>외국주식 검색</li>
+  <li>구글로그인 추가</li>
+</ul>
+</div>
+        </div>
+        
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#portfolioModal" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/" class="img-responsive img-centered" alt="" />
+        </a>
+        <div class="portfolio-caption">
+          <h4></h4>
+          <p class="text-muted"></p>
+        </div>
+      </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; kStock - 실시간 주식시세 확인 2020</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>1.3.1</h2>
+            <hr class="star-primary" />
+            <!-- <img src="img/portfolio/" class="img-responsive img-centered" alt="" /> -->
+            <p></p>
+            <ul class="list-inline item-details">
+              <li>
+                Client:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Date:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Service:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>1.2.6</h2>
+            <hr class="star-primary" />
+            <!-- <img src="img/portfolio/" class="img-responsive img-centered" alt="" /> -->
+            <p></p>
+            <ul class="list-inline item-details">
+              <li>
+                Client:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Date:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Service:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>1.2.5</h2>
+            <hr class="star-primary" />
+            <!-- <img src="img/portfolio/" class="img-responsive img-centered" alt="" /> -->
+            <p></p>
+            <ul class="list-inline item-details">
+              <li>
+                Client:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Date:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Service:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>1.2.3</h2>
+            <hr class="star-primary" />
+            <!-- <img src="img/portfolio/" class="img-responsive img-centered" alt="" /> -->
+            <p></p>
+            <ul class="list-inline item-details">
+              <li>
+                Client:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Date:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Service:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>1.2.2</h2>
+            <hr class="star-primary" />
+            <!-- <img src="img/portfolio/" class="img-responsive img-centered" alt="" /> -->
+            <p></p>
+            <ul class="list-inline item-details">
+              <li>
+                Client:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Date:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Service:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>1.2.1</h2>
+            <hr class="star-primary" />
+            <!-- <img src="img/portfolio/" class="img-responsive img-centered" alt="" /> -->
+            <p></p>
+            <ul class="list-inline item-details">
+              <li>
+                Client:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Date:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Service:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>1.2.0</h2>
+            <hr class="star-primary" />
+            <!-- <img src="img/portfolio/" class="img-responsive img-centered" alt="" /> -->
+            <p></p>
+            <ul class="list-inline item-details">
+              <li>
+                Client:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Date:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Service:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>1.1.0</h2>
+            <hr class="star-primary" />
+            <!-- <img src="img/portfolio/" class="img-responsive img-centered" alt="" /> -->
+            <p></p>
+            <ul class="list-inline item-details">
+              <li>
+                Client:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Date:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+              <li>
+                Service:
+                <strong
+                  ><a href="http://startbootstrap.com"></a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/kstock/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/kstock/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/kstock/js/jquery.easing.min.js"></script>
+    <script src="/kstock/js/classie.js"></script>
+    <script src="/kstock/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/kstock/js/jqBootstrapValidation.js"></script>
+    <script src="/kstock/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/kstock/js/agency.js"></script>
+
+    </body>
+</html>

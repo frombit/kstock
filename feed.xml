@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kStock - 실시간 주식시세 확인</title>
+    <description>실시간 주식시세를 확인하세요. 맥과 윈도우에서 동시에 사용가능합니다. 위젯(가젯)지원과 실시간 알림까지 지원합니다.</description>
+    <link>https://frombit.github.io/kstock/</link>
+    <atom:link href="https://frombit.github.io/kstock/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 16 Dec 2020 00:21:16 +0800</pubDate>
+    <lastBuildDate>Wed, 16 Dec 2020 00:21:16 +0800</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>1.3.1</title>
+        <description>&lt;h3 id=&quot;정식버젼-131&quot;&gt;정식버젼 1.3.1&lt;/h3&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;새롭게-추가된-점&quot;&gt;새롭게 추가된 점&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://frombit.github.io/kstock/img/forDes/sanghahanga.png&quot; alt=&quot;상하한급등주&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;상한가-하한가-급등주-검색기능이-추가되었습니다&quot;&gt;상한가, 하한가, 급등주 검색기능이 추가되었습니다&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Sat, 05 Dec 2020 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/whatsnew/1.3.1/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/whatsnew/1.3.1/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>1.2.6</title>
+        <description>&lt;h3 id=&quot;정식베타-126&quot;&gt;정식/베타 1.2.6&lt;/h3&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;긴급하게-수정된-점&quot;&gt;긴급하게 수정된 점&lt;/h4&gt;
+&lt;h5 id=&quot;실시간-서버의-문제가-긴급하게-수정되었습니다-이-버젼으로-업데이트-해주세요&quot;&gt;실시간 서버의 문제가 긴급하게 수정되었습니다. 이 버젼으로 업데이트 해주세요.&lt;/h5&gt;
+&lt;h5 id=&quot;사용에-불편을-드려-죄송합니다&quot;&gt;사용에 불편을 드려 죄송합니다&lt;/h5&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- [1]: https://frombit.github.io/kstock/img/forDes/customNotiMsg.png --&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 25 Nov 2020 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/whatsnew/1.2.6/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/whatsnew/1.2.6/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>1.2.5</title>
+        <description>&lt;h3 id=&quot;베타버젼-125&quot;&gt;베타버젼 1.2.5&lt;/h3&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;긴급하게-수정된-점&quot;&gt;긴급하게 수정된 점&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;krx-한국거래소-의-데이터가-요즘-많이-불안정합니다&quot;&gt;KRX (한국거래소) 의 데이터가 요즘 많이 불안정합니다.&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;때문에-위젯이-시간정보를-받아오지-못해-offline-이-되거나-트레이창의-시간이-자꾸-안맞는-문제가-생겼습니다&quot;&gt;때문에 위젯이 시간정보를 받아오지 못해 Offline 이 되거나 트레이창의 시간이 자꾸 안맞는 문제가 생겼습니다.&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;다른-데이터서버로-테스트-중입니다-하루-적용하고-정식버젼에-적용하겠습니다&quot;&gt;다른 데이터서버로 테스트 중입니다. 하루 적용하고 정식버젼에 적용하겠습니다.&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- [1]: https://frombit.github.io/kstock/img/forDes/customNotiMsg.png --&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Tue, 24 Nov 2020 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/whatsnew/1.2.5-b/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/whatsnew/1.2.5-b/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>1.2.3</title>
+        <description>&lt;h3 id=&quot;정식버젼-123&quot;&gt;정식버젼 1.2.3&lt;/h3&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;새롭게-추가된점&quot;&gt;새롭게 추가된점&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;개발문의요청-기능을-앱-안에-넣었습니다&quot;&gt;개발문의/요청 기능을 앱 안에 넣었습니다.&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;수정된-점&quot;&gt;수정된 점&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;메인창과-트레이에서-일봉이-표시될때-순서가-변경될경우-다른일봉과-겹쳐보이는-문제가-수정됐습니다&quot;&gt;메인창과 트레이에서 일봉이 표시될때 순서가 변경될경우 다른일봉과 겹쳐보이는 문제가 수정됐습니다&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- [1]: https://frombit.github.io/kstock/img/forDes/customNotiMsg.png --&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2020 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/whatsnew/1.2.3/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/whatsnew/1.2.3/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>1.2.2</title>
+        <description>&lt;h3 id=&quot;정식버젼-122&quot;&gt;정식버젼 1.2.2&lt;/h3&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;추가된-점&quot;&gt;추가된 점&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;맥-정식-버젼이-등록되었습니다&quot;&gt;맥 정식 버젼이 등록되었습니다.&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;수정된-점-윈도우&quot;&gt;수정된 점 (윈도우)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;자동종료-기능-이후-실행이-안되는-문제를-수정했습니다-혹시-업데이트-이후-실행이-안되시는-분들은-번거로우시겠지만&quot;&gt;자동종료 기능 이후 실행이 안되는 문제를 수정했습니다. 혹시 업데이트 이후 실행이 안되시는 분들은 번거로우시겠지만&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;수동으로-이번버젼을-설치해-주세요-번거롭게-해드려-죄송합니다&quot;&gt;수동으로 이번버젼을 설치해 주세요. 번거롭게 해드려 죄송합니다.&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Mon, 09 Nov 2020 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/whatsnew/1.2.2/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/whatsnew/1.2.2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>1.2.1</title>
+        <description>&lt;h3 id=&quot;베타버젼-121&quot;&gt;베타버젼 1.2.1&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;새롭게-추가된점&quot;&gt;새롭게 추가된점&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://frombit.github.io/kstock/img/forDes/customNotiMsg.png&quot; alt=&quot;커스텀알림메세지&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;이제-알림메세지를-임의로-설정할-수-있습니다&quot;&gt;이제 알림메세지를 임의로 설정할 수 있습니다&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;[종목] [줄바꿈] [가격]등 태그를 활용하여 메세지를 만들어보세요.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;수정된-점&quot;&gt;수정된 점&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;로그인시-정보가-틀렸을경우-재로그인이-안되는-문제를-수정했습니다&quot;&gt;로그인시 정보가 틀렸을경우 재로그인이 안되는 문제를 수정했습니다&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Wed, 04 Nov 2020 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/whatsnew/1.2.1-b/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/whatsnew/1.2.1-b/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>1.2.0</title>
+        <description>&lt;h3 id=&quot;정식버젼-120&quot;&gt;정식버젼 1.2.0&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;새롭게-추가된점&quot;&gt;새롭게 추가된점&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://frombit.github.io/kstock/img/forDes/widgetOrderAdded.png&quot; alt=&quot;위젯정렬뉴&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;위젯-정렬기능이-추가되었습니다-우클릭-메뉴&quot;&gt;위젯 정렬기능이 추가되었습니다. (우클릭 메뉴)&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;이제 우측하단으로 정렬 혹은 현재위젯의 위또는 아래로 쉽게 정렬이 가능합니다.&lt;/li&gt;
+      &lt;li&gt;위젯에서 알림, 설정등 바로가기 메뉴가 추가되었습니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://frombit.github.io/kstock/img/forDes/newNotifySetting.png&quot; alt=&quot;커스텀알림&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;커스텀-알림&quot;&gt;커스텀 알림&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;윈도우 기본 알림이 아닌 커스텀 알림을 활용해 보세요. 다양하게 커스텀이 가능합니다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://frombit.github.io/kstock/img/forDes/marketAlarmAdded.png&quot; alt=&quot;장알림&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;장시작-종료-알림&quot;&gt;장시작, 종료 알림&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;동시호가시작, 장시작,끝을 알리는 알림이 추가되었습니다&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://frombit.github.io/kstock/img/forDes/autoQuitAndStartAdded.png&quot; alt=&quot;장알림&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;프로그램-자동-시작-자동-종료&quot;&gt;프로그램 자동 시작, 자동 종료&lt;/h5&gt;
+    &lt;ul&gt;
+      &lt;li&gt;특정시간에 앱을 자동으로 끌수있고, 윈도우와 동시에 시작시키는 옵션이 추가되었습니다&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;그외&quot;&gt;그외&lt;/h5&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 구글로그인 수정
+- 설정을 탭으로 분리
+- 배경만 투명도를 설정 할 수 있게 추가
+- 내 종목에 조금더 다양한 항목이 나오게
+- 위젯 크기와 모양에 따른 즐겨찾기 설정 추가 (3개까지)
+- 코스닥종목의 알림설정 금액 수정
+- 안정화 작업 및 많은 버그를 수정했습니다
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Tue, 03 Nov 2020 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/whatsnew/1.2.0/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/whatsnew/1.2.0/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>1.1.0</title>
+        <description>&lt;h4&gt;정식버젼 : 1.1.0&lt;/h4&gt;
+
+&lt;p&gt;정식버젼 1.1.0&lt;/p&gt;
+
+&lt;h6 id=&quot;새롭게-추가된점&quot;&gt;새롭게 추가된점&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;새롭게 편성된 디자인&lt;/li&gt;
+  &lt;li&gt;위젯의 다양한 설정&lt;/li&gt;
+  &lt;li&gt;일봉추가&lt;/li&gt;
+  &lt;li&gt;외국주식 검색&lt;/li&gt;
+  &lt;li&gt;구글로그인 추가&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 26 Oct 2020 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/whatsnew/1.1.0/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/whatsnew/1.1.0/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

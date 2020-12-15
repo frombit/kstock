@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kStock - 실시간 주식시세 확인</title>
+    <description>실시간 주식시세를 확인하세요. 맥과 윈도우에서 동시에 사용가능합니다. 위젯(가젯)지원과 실시간 알림까지 지원합니다.</description>
+    <link>https://frombit.github.io/kstock/en/</link>
+    <atom:link href="https://frombit.github.io/kstock/en/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 16 Dec 2020 00:21:16 +0800</pubDate>
+    <lastBuildDate>Wed, 16 Dec 2020 00:21:16 +0800</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>0.1.9</title>
+        <description>&lt;h4&gt;Version : 0.1.9&lt;/h4&gt;
+
+&lt;p&gt;Fixed&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;fixed shortcut double pressed&lt;/li&gt;
+  &lt;li&gt;adding some translation&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 10 Oct 2019 00:00:00 +0800</pubDate>
+        <link>https://frombit.github.io/kstock/en/whatsnew/0.1.9/</link>
+        <guid isPermaLink="true">https://frombit.github.io/kstock/en/whatsnew/0.1.9/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
